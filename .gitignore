@@ -1,0 +1,5 @@
+# cmake
+cmake-build-*
+
+# clangd
+.clangd
