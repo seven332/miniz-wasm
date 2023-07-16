@@ -6,6 +6,9 @@ enable_language(C)
 # Save compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_subdirectory(../third_party/miniz miniz SYSTEM)
+# Third Party
+add_subdirectory(third_party SYSTEM)
 
-
+# miniz_wasm
+add_executable(miniz_wasm main.c)
+target_link_libraries(miniz_wasm PRIVATE miniz)

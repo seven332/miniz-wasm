@@ -1,5 +1,10 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/c",
     "cmake.buildDirectory": "${workspaceFolder}/c/cmake-build-${variant:buildType}-${buildKit}",
-    "cmake.generator": "Ninja"
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        "miniz_common.h": "c",
+        "miniz_export.h": "c",
+        "miniz.h": "c"
+    }
 }
