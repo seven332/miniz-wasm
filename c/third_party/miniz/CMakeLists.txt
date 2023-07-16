@@ -1,3 +1,2 @@
-add_definitions(-DMINIZ_NO_STDIO)
-
+add_definitions(-DMINIZ_NO_STDIO -DMINIZ_NO_TIME -DMINIZ_NO_ARCHIVE_WRITING_APIS -DMINIZ_DISABLE_ZIP_READER_CRC32_CHECKS)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../externals/miniz miniz)

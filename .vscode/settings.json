@@ -1,4 +1,5 @@
 {
+    "editor.formatOnSave": true,
     "cmake.sourceDirectory": "${workspaceFolder}/c",
     "cmake.buildDirectory": "${workspaceFolder}/c/cmake-build-${variant:buildType}-${buildKit}",
     "cmake.generator": "Ninja"
